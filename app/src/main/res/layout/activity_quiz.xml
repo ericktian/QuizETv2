@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <!--android:background="@drawable/colorfulcubes"-->
+    <!--android:scaleType="centerCrop">-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/colorfulcubes"
+        android:scaleType="centerCrop" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/high_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/question_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top|center_horizontal"
+            android:background="#0066ff"
+            android:textColor="#EEEEEE"
+            android:textSize="20sp"
+            android:padding="25dp"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!--android:background="@drawable/rubiks_cube">-->
+
+            <Button
+                android:id="@+id/true_button"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:background="#00cc00"
+                android:textColor="#EEEEEE"
+                android:textSize="20sp"
+                android:padding="25dp"
+                android:layout_weight="0.5"
+                android:text="@string/true_button"/>
+
+            <Button
+                android:id="@+id/false_button"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:background="#ff0000"
+                android:textColor="#EEEEEE"
+                android:textSize="20sp"
+                android:padding="25dp"
+                android:layout_weight="0.5"
+                android:text="@string/false_button"/>
+
+            <!--<Button-->
+                <!--android:id="@+id/next_button"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="80dp"-->
+                <!--android:background="#ff9900"-->
+                <!--android:textColor="#EEEEEE"-->
+                <!--android:textSize="20sp"-->
+                <!--android:padding="25dp"-->
+                <!--android:layout_weight="0.33"-->
+                <!--android:text="@string/next_button"/>-->
+
+
+
+        </LinearLayout>
+
+        <!--<TextView
+            android:id="@+id/answer_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25dp"/>-->
+
+        <Button
+            android:id="@+id/hint_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#cc00cc"
+            android:textColor="#EEEEEE"
+            android:textSize="20sp"
+            android:padding="25dp"
+            android:text="@string/hint_button"/>
+        <!--<Button
+            android:id="@+id/CHEAT_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_button"/>-->
+
+    </LinearLayout>
+
+</RelativeLayout>

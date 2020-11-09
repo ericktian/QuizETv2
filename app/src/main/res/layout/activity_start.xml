@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <!--android:background="@drawable/colorfulcubes"-->
+    <!--android:scaleType="centerCrop">-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/white_rubiks_cube"
+        android:scaleType="centerCrop" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/start"
+            android:layout_width="0dp"
+            android:layout_height="95dp"
+            android:gravity="top|center_horizontal"
+            android:background="#07000000"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:padding="25dp"
+            android:layout_weight="1"
+            android:text="@string/start"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:background="#00cc00"
+            android:textColor="#EEEEEE"
+            android:textSize="20sp"
+            android:padding="25dp"
+            android:text="@string/start_button"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

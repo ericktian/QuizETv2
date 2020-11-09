@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">QuizET</string>
+    <string name="question_text">SLOBS are hard</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Wrong!</string>
+    <string name="hint_button">Cheat?</string>
+    <string name="CHEAT_button">Show Answer</string>
+    <string name="answer_button">Click \"Show Answer\" to show answer. You will lose half a point.</string>
+    <string name="high_score">0</string>
+
+    <string name="question_text1">The Rubik\'s Cube has 32 billion possible states</string>
+    <string name="question_text2">A standard Rubik\'s Cube has blue, green, red, orange, yellow, and white</string>
+    <string name="question_text3">If you twist a corner on a 3x3, it will become unsolvable until you twist it back</string>
+    <string name="question_text4">The center colors on a Rubik\'s Cube never change</string>
+    <string name="question_text5">The Rubik\'s Cube was invented by Nikola Tesla</string>
+    <string name="question_text6">It is impossible for only 4 out of 6 sides on the Rubik\'s Cube to be solved</string>
+    <string name="question_text7">The current world record holder for fastest single 3x3 solve is Feliks Zemdegs</string>
+    <string name="question_text8">Typically, Rubik\'s Cubes are held together by screws and springs</string>
+    <string name="question_text9">The world record time for a 3x3 solved blindfolded is 18.31 seconds</string>
+    <string name="next_button">Next</string>
+    <string name="title_activity_end">EndActivity</string>
+
+    <string name="end_message">Results!</string>
+    <string name="title_activity_start">StartActivity</string>
+
+    <string name="start">WELCOME TO MY RUBIK\'S CUBE QUIZ!!!</string>
+    <string name="start_button">START</string>
+</resources>

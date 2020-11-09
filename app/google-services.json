@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "856618429347",
+    "firebase_url": "https://quizet-abb89.firebaseio.com",
+    "project_id": "quizet-abb89",
+    "storage_bucket": "quizet-abb89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856618429347:android:9a11b0dc54916255",
+        "android_client_info": {
+          "package_name": "edu.tjhsst.quizet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856618429347-ne7c0ce8839sg2a33vsc2mbgj7ktjtck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.tjhsst.quizet",
+            "certificate_hash": "6a94175386090af5a05d281ddc402f007d7b0f40"
+          }
+        },
+        {
+          "client_id": "856618429347-fsvcq9hqhb7muune1ajhk37k991ijdpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDap3UVECRZoAfQGSeAAapXKjzbMD8rUA0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856618429347-fsvcq9hqhb7muune1ajhk37k991ijdpa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
